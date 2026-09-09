@@ -95,7 +95,11 @@ BabyTimemapper/
 
 ## Editing events.xml
 
-To use BabyTimemapper you'll need to edit the ```events.xml```, located in the ```public``` folder, file directly. There are two templates in the ```src/notes```, ```eventsTemplate.xml``` and ```eventsFilled.xml```, which can be referenced when editing ```events.xml```. 
+To use BabyTimemapper you'll need to edit the ```events.xml```, located in the ```public``` folder, file directly. 
+
+### DO NOT EDIT ANYTHING IN THE DIST FOLDER
+
+There are two templates in the ```src/notes``` folder, ```eventsTemplate.xml``` and ```eventsFilled.xml```, which can be referenced when editing ```events.xml```. 
 There are simple rules and directions in ```eventsTemplate.xml``` which are:
 * The month, day, and era sections are completely optional, if these areas of info are not available to you then dont worry about filling them out, you can just remove them
 * Events do not need to be in chronological order they will be sorted with a JS function
