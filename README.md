@@ -7,14 +7,15 @@ For those looking to use the GitHub based method, you can follow these steps to 
 
 # BabyTimeMapper Crash Course!
 
-## Making your own BabyTimemapper repo!
+## Making your own BabyTimemapper repo
 First you will need to make a new repo on GitHub, to do this you will go to your GitHub profile and select the Repositories tab (the icon is a book with a little bookmark), then you will hit New (same icon as the Repositories tab). 
 
 After you hit New you will see a screen like this one (just not filled out)
-![Image of the New Repository maker screen](public/images/newRepo.png)
+![Image of the New Repository screen](public/images/newRepo.png)
 You do not need to have the same settings as mine! This is just what I have set for most of my repos.
 
-As for the title, whatever you name the repo will have to be implemented into some of the files that run the site, like ```vite.config.js``` will need to be updated with the name of YOUR repo. 
+As for the title, whatever you name the repo will have to be implemented into some of the files that run the site, like ```vite.config.js``` will need to be updated with the name of YOUR repo.
+
 ![Image of the default vite.config.js file you get when cloning the BabyTimemapper repo, it says; export default { base: '/BabyTimemapper/', }](public/images/viteDefault.png)
 
 The ```base: '/BabyTimemapper/'``` will change to the name of your repo in this case!
@@ -94,7 +95,7 @@ BabyTimemapper/
 
 ## Editing events.xml
 
-To use BabyTimemapper you'll need to edit the ```events.xml``` file directly. There are two templates in the src/notes, ```eventsTemplate.xml``` and ```eventsFilled.xml```, which can be referenced when editing ```events.xml``` in public. 
+To use BabyTimemapper you'll need to edit the ```events.xml```, located in the ```public``` folder, file directly. There are two templates in the ```src/notes```, ```eventsTemplate.xml``` and ```eventsFilled.xml```, which can be referenced when editing ```events.xml```. 
 There are simple rules and directions in ```eventsTemplate.xml``` which are:
 * The month, day, and era sections are completely optional, if these areas of info are not available to you then dont worry about filling them out, you can just remove them
 * Events do not need to be in chronological order they will be sorted with a JS function
