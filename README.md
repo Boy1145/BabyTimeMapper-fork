@@ -7,6 +7,12 @@ For those looking to use the GitHub based method, you can follow these steps to 
 
 # BabyTimeMapper Crash Course!
 
+## Making your own BabyTimemapper repo!
+First you will need to make a new repo on GitHub, to do this you will go to your GitHub profile and select the Repositories tab (the icon is a book with a little bookmark), then you will hit New (same icon as the Repositories tab). 
+
+After you hit New you will see a screen like this one (just not filled out)
+(![Image of the New Repository maker screen](public/images/newRepo.png))
+
 ## Installing Node.js
 First thing that everyone should do is install Node.js to their system:
 ### For MAC: 
@@ -41,7 +47,7 @@ Verify npm version:
 ### You can also go to https://nodejs.org/en/download/current and download a prebuilt Node.js
 
 ### Make sure to clone this repo to your local directory before the next step!
-```git clone https://github.com/spaceTimeExperiments/timeMapper2```
+```git clone https://github.com/spaceTimeExperiments/BabyTimemapper```
 
 You can also download a .zip file if you cant clone the repo itself, the files can be found when clicking the releases section on the GitHub page and clicking the latest version
 
