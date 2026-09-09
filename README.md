@@ -12,10 +12,13 @@ First you will need to make a new repo on GitHub, to do this you will go to your
 
 After you hit New you will see a screen like this one (just not filled out)
 ![Image of the New Repository maker screen](public/images/newRepo.png)
-You do not need to have the same settings as mine! This is just what I have set for most of my repos. 
+You do not need to have the same settings as mine! This is just what I have set for most of my repos.
+
 As for the title, whatever you name the repo will have to be implemented into some of the files that run the site, like ```vite.config.js``` will need to be updated with the name of YOUR repo. 
 ![Image of the default vite.config.js file you get when cloning the BabyTimemapper repo, it says; export default { base: '/BabyTimemapper/', }](public/images/viteDefault.png)
+
 The ```base: '/BabyTimemapper/'``` will change to the name of your repo in this case!
+
 After you get all your settings the way you want them, you can hit the Create repository button and you now have your own BabyTimemapper repo!
 
 ## Installing Node.js
