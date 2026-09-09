@@ -22,6 +22,13 @@ The ```base: '/BabyTimemapper/'``` will change to the name of your repo in this 
 
 After you get all your settings the way you want them, you can hit the Create repository button and you now have your own BabyTimemapper repo!
 
+**Make sure to clone this repo to your local directory and push the files to your new repo!**
+```git clone https://github.com/spaceTimeExperiments/BabyTimemapper```
+
+You can also download a .zip file if you cant clone the repo itself, the files can be found when clicking the releases section on the [GitHub](https://github.com/spaceTimeExperiments/BabyTimemapper) page and clicking the latest version or by clicking [here!](https://github.com/spaceTimeExperiments/BabyTimemapper/releases)
+
+Make sure all future pushes are to your repo, **DO NOT** push anything to the original BabyTimemapper repo!
+
 ## Installing Node.js
 First thing that everyone should do is install Node.js to their system:
 ### For MAC: 
@@ -53,14 +60,7 @@ Verify the Node.js version:
 Verify npm version:
 ```npm -v # Should print "11.17.0".```
 
-### You can also go to https://nodejs.org/en/download/current and download a prebuilt Node.js
-
-### Make sure to clone this repo to your local directory before the next step!
-```git clone https://github.com/spaceTimeExperiments/BabyTimemapper```
-
-You can also download a .zip file if you cant clone the repo itself, the files can be found when clicking the releases section on the GitHub page and clicking the latest version
-
-Please make sure you have your own repo set up for working with this project, DO NOT push anything back to this repo!
+**You can also go to https://nodejs.org/en/download/current and download a prebuilt Node.js**
 
 ## Installing the node modules for BabyTimeMapper
 Once you have Node.js installed you'll need to install the node files needed to run the program, the command is:
@@ -74,7 +74,7 @@ BabyTimemapper/
 |-node_modules (this one will not be visible since it will be in the gitignore)
 |-public
 | |-images
-| |-events.xml
+| |-events.xml (edit this one!)
 |-src
 | |-css
 | | |-style.css
@@ -91,13 +91,13 @@ BabyTimemapper/
 |vite.config.js
 ```
 
-### Once this is complete you should be able to use ```events.xml``` in public to edit the events shown on BabyTimemapper!
+**Once this is complete you should be able to use ```events.xml``` in public to edit the events shown on BabyTimemapper!**
 
 ## Editing events.xml
 
 To use BabyTimemapper you'll need to edit the ```events.xml```, located in the ```public``` folder, file directly. 
 
-### DO NOT EDIT ANYTHING IN THE DIST FOLDER
+**DO NOT EDIT ANYTHING IN THE DIST FOLDER**
 
 There are two templates in the ```src/notes``` folder, ```eventsTemplate.xml``` and ```eventsFilled.xml```, which can be referenced when editing ```events.xml```. 
 There are simple rules and directions in ```eventsTemplate.xml``` which are:
@@ -106,7 +106,7 @@ There are simple rules and directions in ```eventsTemplate.xml``` which are:
 * For event tracks please limit to 3 distinct tracks, ie. early events, recent events, future events. Please fill in the 'name=""' with whatever you want and correspond the correct track numder (1, 2, or 3) with the name, (ex. type="1" name="early events" and type="3" name="future events)
 * Each track can have multiple events
 
-These files NEED to stay where they are, ```events.xml``` must be in the public folder in order for things to work properly. 
+These files **NEED** to stay where they are, ```events.xml``` must be in the public folder in order for things to work properly. 
 
 ## What to do after editing events.xml
 There will be a series of npm commands that is needed in order to build the website, they are as follows:
