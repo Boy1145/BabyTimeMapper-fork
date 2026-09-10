@@ -1,5 +1,5 @@
-# WELCOME TO BABYTIMEMAPPER
-BabyTimemapper is a program that is directly based off of [Timemapper](https://github.com/okfn/timemapper) by [okfn](https://github.com/okfn) (Open Knowledge Foundation) but updated to be stylized and run smoother with local based data input. 
+# WELCOME TO BabyTimeMapper
+BabyTimeMapper is a program that is directly based off of [Timemapper](https://github.com/okfn/timemapper) by [okfn](https://github.com/okfn) (Open Knowledge Foundation) but updated to be stylized and run smoother with local based data input. 
 
 You can run this program through GitHub cloning or you can download the zipped directory if gitclone isnt available to you.
 
@@ -7,7 +7,7 @@ For those looking to use the GitHub based method, you can follow these steps to 
 
 # BabyTimeMapper Crash Course!
 
-## Making your own BabyTimemapper repo
+## Making your own BabyTimeMapper repo
 First you will need to make a new repo on GitHub, to do this you will go to your GitHub profile and select the Repositories tab (the icon is a book with a little bookmark), then you will hit New (same icon as the Repositories tab). 
 
 After you hit New you will see a screen like this one (just not filled out)
@@ -16,18 +16,18 @@ You do not need to have the same settings as mine! This is just what I have set 
 
 As for the title, whatever you name the repo will have to be implemented into some of the files that run the site, like ```vite.config.js``` will need to be updated with the name of YOUR repo.
 
-![Image of the default vite.config.js file you get when cloning the BabyTimemapper repo, it says; export default { base: '/BabyTimemapper/', }](public/images/viteDefault.png)
+![Image of the default vite.config.js file you get when cloning the BabyTimeMapper repo, it says; export default { base: '/BabyTimeMapper/', }](public/images/viteDefault.png)
 
-The ```base: '/BabyTimemapper/'``` will change to the name of your repo in this case!
+The ```base: '/BabyTimeMapper/'``` will change to the name of your repo in this case!
 
-After you get all your settings the way you want them, you can hit the Create repository button and you now have your own BabyTimemapper repo!
+After you get all your settings the way you want them, you can hit the Create repository button and you now have your own BabyTimeMapper repo!
 
 **Make sure to clone this repo to your local directory and push the files to your new repo!**
-```git clone https://github.com/spaceTimeExperiments/BabyTimemapper```
+```git clone https://github.com/spaceTimeExperiments/BabyTimeMapper```
 
-You can also download a .zip file if you cant clone the repo itself, the files can be found when clicking the releases section on the [GitHub](https://github.com/spaceTimeExperiments/BabyTimemapper) page and clicking the latest version or by clicking [here!](https://github.com/spaceTimeExperiments/BabyTimemapper/releases)
+You can also download a .zip file if you cant clone the repo itself, the files can be found when clicking the releases section on the [GitHub](https://github.com/spaceTimeExperiments/BabyTimeMapper) page and clicking the latest version or by clicking [here!](https://github.com/spaceTimeExperiments/BabyTimeMapper/releases)
 
-Make sure all future pushes are to your repo, **DO NOT** push anything to the original BabyTimemapper repo!
+Make sure all future pushes are to your repo, **DO NOT** push anything to the original BabyTimeMapper repo!
 
 ## Installing Node.js
 First thing that everyone should do is install Node.js to their system:
@@ -66,9 +66,9 @@ Verify npm version:
 Once you have Node.js installed you'll need to install the node files needed to run the program, the command is:
 ```npm install```
 
-## The folder structure of BabyTimemapper
+## The folder structure of BabyTimeMapper
 ```
-BabyTimemapper/
+BabyTimeMapper/
 |-dist
 |-fonts
 |-node_modules (this one will not be visible since it will be in the gitignore)
@@ -91,11 +91,11 @@ BabyTimemapper/
 |vite.config.js
 ```
 
-**Once this is complete you should be able to use ```events.xml``` in public to edit the events shown on BabyTimemapper!**
+**Once this is complete you should be able to use ```events.xml``` in public to edit the events shown on BabyTimeMapper!**
 
 ## Editing events.xml
 
-To use BabyTimemapper you'll need to edit the ```events.xml```, located in the ```public``` folder, file directly. 
+To use BabyTimeMapper you'll need to edit the ```events.xml```, located in the ```public``` folder, file directly. 
 
 **DO NOT EDIT ANYTHING IN THE DIST FOLDER**
 
@@ -127,4 +127,4 @@ Your workflow will look something like;
 
 ```npm run dev --> editing events.xml --> exit npm run dev --> npm run build --> npm run preview --> exit npm run preview --> npm run deploy --> add --> commit --> push```
 
-Using these commands will allow you to host your own BabyTimemapper with just your events displayed in it, this way you can share it freely with others and none of the data will be messed up
+Using these commands will allow you to host your own BabyTimeMapper with just your events displayed in it, this way you can share it freely with others and none of the data will be messed up
