@@ -3,101 +3,86 @@
 <events>
  <track type="1" name="early">
   <event>
-    <title>Julius Caesar invades Britain</title>
+    <title>Apple Founded</title>
     <date type="start">
-      <year>55</year>
-      <era>BC</era>
+      <year>1976</year>
+      <month>04</month>
+      <day>01</day>
+      <era>CE</era>
     </date>
     <date type="end">
-      <year>54</year>
-      <era>BC</era>
     </date>
-    <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
-    <lat>51.1789</lat>
-    <lon>1.1713</lon>
+    <description> Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne.</description>
+    <lat>37.3230</lat>
+    <lon>-122.0322</lon>
   </event>
 
   <event>
-    <title>Battle of Actium</title>
+    <title>First iPhone Released</title>
     <date type="start">
-      <year>31</year>
-      <month>09</month>
-      <era>BC</era>
+      <year>2007</year>
+      <month>06</month>
+      <day>29</day>
+      <era>CE</era>
     </date>
     <date type="end">
-    <year>10</year>
-    <month>07</month>
-    <era>BC</era>
     </date>
-    <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
-    <lat>38.9419</lat>
-    <lon>20.7400</lon>
+    <description>Apple released the first iPhone in the United States. The device combined a mobile phone, an iPod, and an internet communication device.</description>
+    <lat>37.3349</lat>
+    <lon>-122.0090</lon>
+    <media>https://www.apple.com/newsroom/2007/06/28iPhone-Premieres-This-Friday-Night-at-Apple-Retail-Stores/</media>
   </event>
   </track>
  
- <track type="2" name="mid">
+ <track type="2" name="recent">
   <event>
-    <title>Storming of the Bastille</title>
+    <title>John Ternus Becomes Apple CEO</title>
     <date type="start">
-      <year>1789</year>
-      <month>07</month>
-      <day>14</day>
-      <era>AD</era>
+      <year>2026</year>
+      <month>09</month>
+      <day>01</day>
+      <era>CE</era>
     </date>
     <date type="end">
     </date>
-    <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
-    <lat>48.8533</lat>
-    <lon>2.3692</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Prise_de_la_Bastille.jpg/640px-Prise_de_la_Bastille.jpg</media>
+    <description>John Ternus became CEO of Apple, succeeding Tim Cook. Tim Cook became Executive Chair of Apple's board.</description>
+    <lat>37.3349</lat>
+    <lon>-122.0090</lon>
+    <media>https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/</media>
   </event>
  
   <event>
-    <title>Declaration of the Rights of Man</title>
+    <title>iPhone 17 Release</title>
     <date type="start">
-      <year>1789</year>
-      <month>08</month>
-      <day>26</day>
-      <era>AD</era>
+      <year>2025</year>
+      <month>09</month>
+      <day>19</day>
+      <era>CE</era>
     </date>
     <date type="end">
     </date>
-    <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
-    <lat>48.8566</lat>
-    <lon>2.3522</lon>
-  </event>
- 
-  <event>
-    <title>Execution of Louis XVI</title>
-    <date type="start">
-      <year>1793</year>
-      <month>01</month>
-      <day>21</day>
-      <era>AD</era>
-    </date>
-    <date type="end">
-    </date>
-    <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
-    <lat>48.8656</lat>
-    <lon>2.3212</lon>
+    <description>Apple released the iPhone 17, featuring the A19 chip, a 6.3-inch ProMotion display, and a 48MP Dual Fusion camera system.</description>
+    <lat>37.3349</lat>
+    <lon>-122.0090</lon>
+    <media>https://www.apple.com/newsroom/2025/09/apple-debuts-iphone-17/</media>
   </event>
  </track>
 
-<track type="3" name="late">
+<track type="3" name="future">
   <event>
-    <title>Napoleon crowned Emperor</title>
+    <title>iPhone 18 Pro and 18 Pro Max release</title>
     <date type="start">
-      <year>1804</year>
-      <month>12</month>
-      <day>02</day>
-      <era>AD</era>
+      <year>2026</year>
+      <month>09</month>
+      <day>18</day>
+      <era>CE</era>
     </date>
     <date type="end">
     </date>
-    <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.</description>
-    <lat>48.8530</lat>
-    <lon>2.3499</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg/480px-David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg</media>
+    <description>The iPhone 18 Pro and 18 Pro Max are already announced: preorders started September 12, 2026, and they go on sale September 18, 2026.</description>
+    <lat>37.3349</lat>
+    <lon>-122.0090</lon>
+    <media>https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/?utm_source=chatgpt.com</media>
   </event>
  </track>
 </events>
