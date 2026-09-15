@@ -1,0 +1,29 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = events
+events = element events {track+}
+track = element track {trackType, name, event*}
+
+#content in the track elemnt
+trackType = attribute type {xsd:integer}
+name = attribute name {"early" | "recent" | "future" }
+event = element event {title, date+, description, lat, lon, media?}
+
+#content in the event elemnt
+title = element title {text}
+date = element date {dateType, year?, month?, day?, era?}
+description = element description {text}
+lat = element lat {xsd:decimal}
+lon = element lon {xsd:decimal}
+media = element media {xsd:anyURI}
+
+
+#content in the date element
+dateType = attribute type {"start" | "end"}
+year = element year {xsd:integer}
+month = element month {xsd:integer}
+day = element day{xsd:integer}
+era = element era {"BC" | "AD" | "BCE" | "CE" }
+
+
+
